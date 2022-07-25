@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class windowsystem2 extends JFrame
+public class clocksystem2 extends JFrame
 {
     private JLabel heading;
 
@@ -14,7 +14,7 @@ public class windowsystem2 extends JFrame
     private Font font=new Font("",Font.BOLD,35);
 
 
-    windowsystem2()
+    clocksystem2()
     {
         super.setTitle(" My Clock");
         super.setSize(400,400);
